@@ -4,7 +4,9 @@ import './index.css';
 import greeting from './App';
 // import reportWebVitals from './reportWebVitals';
 
-const time = new Date().getHours();
+const time = new Date()
+const currenTime = Date.getHours();
+
 let greeting;
 const customStyle = {
   color: ""
